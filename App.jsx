@@ -1,9 +1,9 @@
 import React from "react";
-import ZenithGrid from "./components/ZenithGrid";
-import { ZenithScanline } from "./components/ZenithScanline";
-import { ZenithTitle } from "./components/ZenithTitle";
-import { ZenithCard } from "./components/ZenithCard";
-import { ZenithButton } from "./components/ZenithButton";
+import ZenithGrid from "./component/ZenithGrid";
+import { ZenithScanline } from "./component/ZenithScanline";
+import { ZenithTitle } from "./component/ZenithTitle";
+import { ZenithCard } from "./component/ZenithCard";
+import { ZenithButton } from "./component/ZenithButton";
 
 export default function App() {
   return (
@@ -17,7 +17,7 @@ export default function App() {
         floating card, dan neon glow.
       </ZenithCard>
 
-      <ZenithButton url="https://example.com" text="Buka Menu" />
+      <ZenithButton url="https://t.me/ubottvios_probot" text="Buka Menu" />
     </div>
   );
 }
